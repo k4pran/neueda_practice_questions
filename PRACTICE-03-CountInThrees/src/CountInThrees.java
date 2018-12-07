@@ -20,7 +20,7 @@ public class CountInThrees {
 			try {
 				countTarget = scanner.nextInt();
 				if (countTarget < 0) {
-					System.out.println("Invalid input. Number must be 1 or greater.");
+					System.out.println("Invalid input. Number must be 0 or greater.");
 				}
 				else {
 					validInput = true;
