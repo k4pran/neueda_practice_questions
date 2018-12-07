@@ -31,6 +31,7 @@ public class SumTo {
 				scanner.next();
 			}
 		}
+		scanner.close();
 		
 		System.out.println("--Results--\n");
 		int runningTotal = 0;
