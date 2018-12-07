@@ -35,5 +35,6 @@ public class CountUpTo {
 		for (int i = 1; i <= countTarget; i++) {
 			System.out.println(i);
 		}
+		scanner.close();
 	}
 }
